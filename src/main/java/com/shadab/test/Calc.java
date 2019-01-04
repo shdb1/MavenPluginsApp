@@ -10,7 +10,7 @@ public class Calc {
         UUID uid = UUID.nameUUIDFromBytes("/var/www/example.com/html/index.php".getBytes());     
              
         // checking UUID value
-        system.out.println("UUID value is : "+uid);    
+        System.out.println("UUID value is : "+uid);    
     }
     
     public Integer add(Integer n1, Integer n2) {
